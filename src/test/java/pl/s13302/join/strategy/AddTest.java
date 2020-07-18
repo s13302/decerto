@@ -3,8 +3,8 @@ package pl.s13302.join.strategy;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import pl.s13302.numbers.strategy.GetNumberStrategyStub;
-import pl.s13302.numbers.strategy.IGetNumberStrategy;
+import pl.s13302.data.strategy.GetNumberStrategyStub;
+import pl.s13302.data.strategy.IGetDataStrategy;
 
 import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.Matchers.*;
@@ -13,7 +13,7 @@ public class AddTest {
 
     private final int getNumberResult = 1;
     private Add add;
-    private IGetNumberStrategy getNumberStrategy;
+    private IGetDataStrategy getNumberStrategy;
 
     @Before
     public void setup() {

@@ -1,8 +1,8 @@
 package pl.s13302.join.strategy;
 
-import pl.s13302.numbers.strategy.IGetNumberStrategy;
+import pl.s13302.data.strategy.IGetDataStrategy;
 
-public interface IJoinStrategy {
+public interface IJoinStrategy<T> {
 
     /**
      * Joins data from two different sources into one result
@@ -12,6 +12,6 @@ public interface IJoinStrategy {
      * @return result of joining data from sources
      * @see IllegalArgumentException
      */
-    Integer doJoinData(IGetNumberStrategy dataSource1, IGetNumberStrategy dataSource2) throws IllegalArgumentException;
+    T doJoinData(IGetDataStrategy<T> dataSource1, IGetDataStrategy<T> dataSource2) throws IllegalArgumentException;
 
 }

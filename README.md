@@ -54,3 +54,7 @@ Remember, requirements can be changed. It would change join method or data sourc
     * [X] Strategy design pattern
     * [X] Base add implementation
     * [X] Tests
+* [X] Refactor
+    * [X] Remove `BaseTest`
+    * [X] Change interfaces to use generics
+    * [X] Adapt everything

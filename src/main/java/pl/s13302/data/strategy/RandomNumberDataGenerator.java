@@ -1,17 +1,17 @@
-package pl.s13302.numbers.strategy;
+package pl.s13302.data.strategy;
 
 import java.util.Random;
 
-public class RandomNumberGenerator implements IGetNumberStrategy {
+public class RandomNumberDataGenerator implements IGetDataStrategy<Integer> {
 
     private Random random;
 
-    public RandomNumberGenerator() {
+    public RandomNumberDataGenerator() {
         this.random = new Random(System.currentTimeMillis());
     }
 
     @Override
-    public Integer getNumber() {
+    public Integer getData() {
         return this.random.nextInt();
     }
 

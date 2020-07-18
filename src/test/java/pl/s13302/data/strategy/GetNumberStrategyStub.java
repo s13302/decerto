@@ -1,6 +1,6 @@
-package pl.s13302.numbers.strategy;
+package pl.s13302.data.strategy;
 
-public class GetNumberStrategyStub implements IGetNumberStrategy {
+public class GetNumberStrategyStub implements IGetDataStrategy<Integer> {
 
     private Integer result;
 
@@ -9,7 +9,7 @@ public class GetNumberStrategyStub implements IGetNumberStrategy {
     }
 
     @Override
-    public Integer getNumber() {
+    public Integer getData() {
         return new Integer(result);
     }
 }
