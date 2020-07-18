@@ -46,3 +46,6 @@ Remember, requirements can be changed. It would change join method or data sourc
     * [X] Create and fill `README.md` file
     * [X] Create base `Main.java` file and check project setup
     * [X] Push as initial commit
+* [X] Getting the data
+    * [X] Strategy design pattern
+    * [X] Random numbers generator
