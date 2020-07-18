@@ -49,3 +49,8 @@ Remember, requirements can be changed. It would change join method or data sourc
 * [X] Getting the data
     * [X] Strategy design pattern
     * [X] Random numbers generator
+    * [X] Tests
+* [X] Join data strategy
+    * [X] Strategy design pattern
+    * [X] Base add implementation
+    * [X] Tests

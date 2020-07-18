@@ -18,17 +18,11 @@ public class RandomNumberGeneratorTest {
     @Test
     public void getNumber() {
         // Given:
-        int from = 20;
-        int to = 50;
 
         // When:
-        Integer result = this.randomNumberGenerator.getNumber(from, to);
+        Integer result = this.randomNumberGenerator.getNumber();
 
         // Then:
-        assertThat(result, allOf(
-                notNullValue()
-                , greaterThanOrEqualTo(from)
-                , lessThan(to)
-        ));
+        assertThat(result, notNullValue());
     }
 }

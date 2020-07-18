@@ -11,8 +11,8 @@ public class RandomNumberGenerator implements IGetNumberStrategy {
     }
 
     @Override
-    public Integer getNumber(int from, int to) {
-        return this.random.nextInt(to - from) + from;
+    public Integer getNumber() {
+        return this.random.nextInt();
     }
 
 }
