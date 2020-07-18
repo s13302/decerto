@@ -58,3 +58,4 @@ Remember, requirements can be changed. It would change join method or data sourc
     * [X] Remove `BaseTest`
     * [X] Change interfaces to use generics
     * [X] Adapt everything
+* [X] Add Rest number generator
